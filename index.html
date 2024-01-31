@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokemon</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <input type="text" id="PokemonName" placeholder="Enter Pokemon Name">
+  <input type="text" class="input-css" id="PokemonName" placeholder="Enter Pokemon Name">
   
-  <button onclick="fetchData()">Fetch Pokemon</button><br> <!-- aqui llamamos a nuestra funcion. se va a ejecutar cuando apretemos el clik -->
+  <button onclick="fetchData()" class="button-css">Fetch Pokemon</button><br> <!-- aqui llamamos a nuestra funcion. se va a ejecutar cuando apretemos el clik -->
 
-  <img src="index.js" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+  <img src="index.js" class="img-css" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
 
-  <h2 src="index.js" alt="type" id="pokemonType" ></h2>
+  <h2 src="index.js" class="name-css" alt="type" id="pokemonType" ></h2>
 
   <script src="./index.js"></script>
 </body>

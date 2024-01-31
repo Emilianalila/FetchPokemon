@@ -1,0 +1,33 @@
+.button-css{
+  margin: 20px;
+  margin-left: 5px;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  background-color: green;
+  border-radius: 40px;
+  padding: 10px;
+  font-weight: bolder;
+
+}
+
+.input-css{
+  margin: 2px;
+  margin-left: 35px;
+  color: black;
+  padding: 6px;
+}
+::placeholder { 
+  color: rgb(208, 208, 87);
+  opacity: 0,3; 
+}
+
+.img-css{
+  margin-left: 50px;
+  height: 220px;
+}
+
+.name-css{
+  margin-left: 110px;
+}
